@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap');
+
+/* font: 300 15px/1.6 "Noto Sans TC";*/
+
+body {
+    background: lightseagreen;
+}
+
+#app {
+    margin: 0 auto;
+    padding: 10px;
+    width: 95%;
+    max-width: 800px;
+    border-radius: 20px;
+    background: white;
+}
+
+h1 {
+    font: 900 40px/1.6 "Noto Sans TC";
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+
+
+
+#typeBoard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#typeBoard a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 20%;
+    max-width: 200px;
+    font: 700 20px/1.5 "Noto Sans TC";
+    color: white;
+    background: lightseagreen;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+
+
+#searchBoard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    height: 30px;
+    max-width: 500px;
+}
+
+#searchBoard a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20%;
+    height: 30px;
+    font: 700 20px/1.5 "Noto Sans TC";
+    color: white;
+    background: lightsalmon;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#searchBoard input {
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px;
+    width: 80%;
+    height: 100%;
+    border-radius: 99em;
+    border: none;
+    background: lightgray;
+}
+
+
+#nameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nameBoard li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: calc(100% / 7);
+    list-style: none;
+    font: 300 15px/1.6 "Noto Sans TC";
+    text-align: center;
+    color: white;
+    background: lightseagreen;
+}
+
+
+#nameBoard li div {
+    display: inline-block;
+}
+
+#nameBoard li div a {
+    display: block;
+    font: 300 10px/1 "Noto Sans TC";
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#viewBoard {
+    margin: 0;
+    padding: 0;
+}
+
+#viewBoard li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    list-style: none;
+    font: 300 15px/1.6 "Noto Sans TC";
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+#viewBoard li span {
+    display: inline-block;
+    width: calc(100% / 7);
+}
+
+#searchFinalMsg p {
+    display: none;
+    padding: 10px 0;
+    font: 300 15px/1.6 "Noto Sans TC";
+}
+
+#searchFinalMsg p.act {
+    display: block;
+}
+
+
+#sortBoard {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+#sortBoardSelect {
+    padding: 5px 10px;
+    font: 300 15px/1.6 "Noto Sans TC";
+}
